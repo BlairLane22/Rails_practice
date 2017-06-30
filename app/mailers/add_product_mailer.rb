@@ -1,0 +1,2 @@
+class AddProductMailer < ApplicationMailer
+end

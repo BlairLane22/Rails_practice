@@ -1,0 +1,6 @@
+<h1> This is the mailer page </h1>
+
+<% form_for @mailer do |mail| %>
+  <%= mail.label :Email %>
+  <%= mail.text_field :email %>
+<% end %>
